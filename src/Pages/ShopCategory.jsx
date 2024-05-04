@@ -6,14 +6,14 @@ export default function ShopCategory(props) {
   const { all_product } = useContext(ShopContext);
   return (
     <div className="shopCategory">
-      <img className="block my-[30px] mx-auto w-[82%]" src={props.banner} />
+      <img className="block my-[30px] mx-auto w-[82%]" src={props.banner} alt="image found"  />
       <div className="flex my-0 mx-[170px] justify-between items-center ">
         <p>
           <span className="font-semibold  ">Showing 1-12</span>out of 36 products
         </p>
         <div className="py-[10px] px-[20px] rounder-[40px] border border-solid border-[#888] ">
           sort by
-          <img src={dropdown_icon} />
+          <img src={dropdown_icon}  alt="image found"/>
         </div>
       </div>
       <div className="my-[10px] mx-[150px] grid grid-cols-4 gap-[30px] ">

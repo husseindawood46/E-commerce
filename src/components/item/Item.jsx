@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Item(props) {
   return (
     <div className="w[350px]">
-     <Link to={`/product/${props.id}`}> <img onClick={window.scrollTo(0,0)} src={props.image} /></Link>
+     <Link to={`/product/${props.id}`}> <img onClick={window.scrollTo(0,0)} src={props.image} alt="image found"    /></Link>
       <p className="mx-6 my-0 ">{props.name}</p>
       <div className="flex gap-5 ">
         <div className="text-[#374151] text-[18px] font-semibold ">
